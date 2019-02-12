@@ -32,6 +32,6 @@ resource "aws_instance" "web" {
   subnet_id = "${data.terraform_remote_state.network.research_subnet_id}"
 
   tags {
-    Name = "Conors yesResearch Instance"
+    Name = "Conors Research Instance"
   }
 }
